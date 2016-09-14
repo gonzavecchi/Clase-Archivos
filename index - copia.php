@@ -25,8 +25,8 @@ $myfile = fopen($xPath, "r");
 
 $myfile = fopen("palabras.txt", "r");
 $cadena = fgets($myfile);
-/*echo "<br>Voy a mostrar la cadena<br>";
-echo $cadena;*/
+echo "<br>Voy a mostrar la cadena<br>";
+echo $cadena;
 
 $ejemplo = count(explode(" ", $cadena));
 /*echo "<br><br>La cadena contiene $ejemplo palabras";*/
